@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+:root {
+  --button-color: rgb(188, 188, 255);
+  --color: red;
+  --accent-color: rgb(155, 155, 255);
+}
+sup {
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Comfortaa";
+  text-align: center;
+}
+.list {
+  justify-content: center;
+  display: flex;
+}
+.name_HS {
+  transform: rotate(-15deg);
+  background: linear-gradient(45deg, var(--color), var(--accent-color));
+}
+.block {
+  display: block;
+  height: 50px;
+  padding-top: 25px;
+}
+.margin {
+  margin-top: 50px;
+}
+.name_js {
+  transform: rotate(-15deg);
+  background-color: yellow;
+}
+.name_Design {
+  transform: rotate(-15deg);
+  background-color: red;
+}
+.planed {
+  cursor: pointer;
+  background-color: var(--button-color);
+}
+.no-planed {
+  cursor: not-allowed;
+  color: red;
+}
